@@ -24,5 +24,8 @@ change to the directory containing  your chapter 1 source code.  Issue the follo
    
    run with three instances
    **docker-compose -f docker/common/docker-compose.yml up --scale simpleservice=3**
-
+   
+   access services via nginx
+   **http://localhost:4000/hello/ahmet/dağcı**
+ 
 If everything starts correctly you should see a bunch of spring boot information fly by on standard out.  At this point all of the services needed for the chapter code examples will be running.
